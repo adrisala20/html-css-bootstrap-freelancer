@@ -20,3 +20,18 @@ non sovracrivere unon di boostrap */
     color: #1abc9c;
 }
 
+/* ****** footer ******* */
+#footer-top .container .row a::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "\f39e";
+    font-size: small;
+    font-weight: lighter;
+    font-family: "Font Awesome 6 Brands";
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid white;
+    border-radius: 50%;
+}
