@@ -11,12 +11,25 @@
 #hero img {
     width: 30%;
 }
-#hero .container-small {
+
+#hero .container-small,
+#portfolio .container-small,
+#about .container-small,
+#contact .container-small {
     width: 150px;
 }
-#hero .as-border {
+
+#hero .as-border,
+#about .as-border {
     height: 0;
     border: 2px solid white;
+    border-radius: 5px;
+}
+/* ********** section Portfolio ************/
+#portfolio .as-border,
+#contact .as-border {
+    height: 0;
+    border: 2px solid black;
     border-radius: 5px;
 }
 /* pseudo elemento per il telo semi trasparente */
