@@ -1,0 +1,23 @@
+.as-debug {
+    border: 2px solid red;
+}
+
+.odd {
+    background-color: #1abc9c;
+}
+.bg-footer-bottom {
+    background-color: #2C3e50;
+}
+/* pseudo elemento per il telo semi trasparente */
+.card:hover:after {
+    ;
+}
+/* ** usare smpre l'id creato per essere sicuri di 
+non sovracrivere unon di boostrap */
+#portofolio-nav a.nav-link a {
+    color: white;
+}
+#portofolio-nav a.nav-link a:hover {
+    color: #1abc9c;
+}
+
