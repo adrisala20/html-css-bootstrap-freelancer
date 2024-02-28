@@ -12,16 +12,12 @@
     width: 30%;
 }
 #hero .container-small {
-    width: 50%;
+    width: 150px;
 }
 #hero .as-border {
     height: 0;
     border: 2px solid white;
     border-radius: 5px;
-}
-#hero #star::after {
-    content: "\f005";
-    color: white;
 }
 /* pseudo elemento per il telo semi trasparente */
 .card:hover:after {
